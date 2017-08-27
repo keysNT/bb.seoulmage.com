@@ -1,0 +1,60 @@
+[24-Nov-2016 05:15:22 UTC] WordPress database error Unknown column 'wp_' in 'field list' for query SELECT wp_
+[28-Nov-2016 06:03:25 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/anspress-question-answer.php on line 726
+[28-Nov-2016 06:03:26 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/anspress-question-answer.php on line 726
+[28-Nov-2016 06:03:27 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/anspress-question-answer.php on line 726
+[28-Nov-2016 06:03:33 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/anspress-question-answer.php on line 726
+[28-Nov-2016 06:03:34 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/anspress-question-answer.php on line 726
+[28-Nov-2016 06:03:34 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/anspress-question-answer.php on line 726
+[28-Nov-2016 06:05:04 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/anspress-question-answer.php on line 726
+[28-Nov-2016 06:05:05 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/anspress-question-answer.php on line 726
+[28-Nov-2016 06:05:06 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/anspress-question-answer.php on line 726
+[28-Nov-2016 06:05:55 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/anspress-question-answer.php on line 726
+[28-Nov-2016 06:05:56 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/anspress-question-answer.php on line 726
+[28-Nov-2016 06:05:56 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/anspress-question-answer.php on line 726
+[28-Nov-2016 06:06:12 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/anspress-question-answer.php on line 726
+[28-Nov-2016 06:06:12 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/anspress-question-answer.php on line 726
+[28-Nov-2016 06:06:12 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/anspress-question-answer.php on line 726
+[28-Nov-2016 06:06:19 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/anspress-question-answer.php on line 726
+[28-Nov-2016 06:06:20 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/anspress-question-answer.php on line 726
+[28-Nov-2016 06:06:20 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/anspress-question-answer.php on line 726
+[08-Dec-2016 06:27:28 UTC] PHP Warning:  Illegal string offset 'file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 438
+[08-Dec-2016 06:27:28 UTC] PHP Warning:  Illegal string offset 'small_file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 442
+[08-Dec-2016 06:34:12 UTC] PHP Warning:  Illegal string offset 'file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 438
+[08-Dec-2016 06:34:12 UTC] PHP Warning:  Illegal string offset 'small_file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 442
+[08-Dec-2016 06:35:37 UTC] PHP Warning:  Illegal string offset 'file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 371
+[08-Dec-2016 06:35:37 UTC] PHP Warning:  Illegal string offset 'small_file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 376
+[08-Dec-2016 06:52:20 UTC] PHP Warning:  Illegal string offset 'file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 371
+[08-Dec-2016 06:52:20 UTC] PHP Warning:  Illegal string offset 'small_file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 376
+[21-Dec-2016 08:21:00 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/bb/public_html/wp-includes/class-wp-hook.php on line 298
+[21-Dec-2016 08:21:01 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/bb/public_html/wp-includes/class-wp-hook.php:298) in /home/bb/public_html/wp-content/plugins/unyson/framework/includes/hooks.php on line 156
+[21-Dec-2016 08:21:12 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/bb/public_html/wp-includes/class-wp-hook.php on line 298
+[21-Dec-2016 08:21:12 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/bb/public_html/wp-includes/class-wp-hook.php:298) in /home/bb/public_html/wp-content/plugins/unyson/framework/includes/hooks.php on line 156
+[21-Dec-2016 08:21:40 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/bb/public_html/wp-includes/class-wp-hook.php on line 298
+[21-Dec-2016 08:21:40 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/bb/public_html/wp-includes/class-wp-hook.php:298) in /home/bb/public_html/wp-content/plugins/unyson/framework/includes/hooks.php on line 156
+[21-Dec-2016 08:21:44 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/bb/public_html/wp-includes/class-wp-hook.php on line 298
+[21-Dec-2016 08:21:44 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/bb/public_html/wp-includes/class-wp-hook.php:298) in /home/bb/public_html/wp-content/plugins/unyson/framework/includes/hooks.php on line 156
+[21-Dec-2016 08:21:59 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/bb/public_html/wp-includes/class-wp-hook.php on line 298
+[21-Dec-2016 08:21:59 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/bb/public_html/wp-includes/class-wp-hook.php:298) in /home/bb/public_html/wp-content/plugins/unyson/framework/includes/hooks.php on line 156
+[21-Dec-2016 08:23:08 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/bb/public_html/wp-includes/class-wp-hook.php on line 298
+[21-Dec-2016 08:23:13 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/bb/public_html/wp-includes/class-wp-hook.php on line 298
+[21-Dec-2016 08:23:13 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/bb/public_html/wp-includes/class-wp-hook.php:298) in /home/bb/public_html/wp-content/plugins/unyson/framework/includes/hooks.php on line 156
+[21-Dec-2016 08:23:18 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/bb/public_html/wp-includes/class-wp-hook.php on line 298
+[21-Dec-2016 08:23:18 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/bb/public_html/wp-includes/class-wp-hook.php:298) in /home/bb/public_html/wp-content/plugins/unyson/framework/includes/hooks.php on line 156
+[11-Apr-2017 07:58:10 UTC] PHP Warning:  Illegal string offset 'file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 438
+[11-Apr-2017 07:58:10 UTC] PHP Warning:  Illegal string offset 'small_file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 442
+[12-Apr-2017 01:58:20 UTC] PHP Warning:  Illegal string offset 'file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 371
+[12-Apr-2017 01:58:20 UTC] PHP Warning:  Illegal string offset 'small_file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 376
+[26-Apr-2017 08:55:15 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/bb/public_html/wp-content/themes/bluebell/functions.php on line 24
+[26-Apr-2017 08:55:19 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/bb/public_html/wp-content/themes/bluebell/functions.php on line 24
+[26-Apr-2017 08:57:02 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/bb/public_html/wp-content/themes/bluebell/functions.php on line 18
+[15-May-2017 12:54:35 UTC] PHP Warning:  Illegal string offset 'file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 371
+[15-May-2017 12:54:35 UTC] PHP Warning:  Illegal string offset 'small_file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 376
+[15-May-2017 13:02:28 UTC] PHP Warning:  Illegal string offset 'file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 438
+[15-May-2017 13:02:28 UTC] PHP Warning:  Illegal string offset 'small_file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 442
+[14-Jun-2017 00:25:04 UTC] PHP Warning:  Illegal string offset 'file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 438
+[14-Jun-2017 00:25:04 UTC] PHP Warning:  Illegal string offset 'small_file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 442
+[03-Jul-2017 01:30:06 UTC] PHP Warning:  Illegal string offset 'file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 438
+[03-Jul-2017 01:30:06 UTC] PHP Warning:  Illegal string offset 'small_file' in /home/bb/public_html/wp-content/plugins/anspress-question-answer/includes/class-user.php on line 442
+[26-Jul-2017 03:21:20 UTC] PHP Fatal error:  Call to undefined method WP_Error::get_item_quantity() in /home/bb/public_html/wp-content/plugins/anspress-question-answer/admin/views/dashboard.php on line 294
+[26-Jul-2017 03:36:35 UTC] PHP Fatal error:  Call to undefined method WP_Error::get_item_quantity() in /home/bb/public_html/wp-content/plugins/anspress-question-answer/admin/views/dashboard.php on line 294
+[26-Jul-2017 03:36:40 UTC] PHP Fatal error:  Call to undefined method WP_Error::get_item_quantity() in /home/bb/public_html/wp-content/plugins/anspress-question-answer/admin/views/dashboard.php on line 294
