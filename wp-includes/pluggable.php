@@ -958,19 +958,31 @@ if ( !function_exists('is_user_logged_in') ) :
  * @return bool True if user is logged in, false if not logged in.
  */
 function is_user_logged_in() {
-   // var_dump($_SERVER);var_dump('hihi');
+   //var_dump($_SERVER);var_dump($_SESSION["origURL"]);var_dump('hihi');
     if(!session_id()) {
         session_start();
     }
     $url = $_SERVER['REQUEST_URI'];
     $url = str_replace("/",' ',$url);
     $arrUrl = explode (' ', $url);
-    if(in_array('questions',$arrUrl)){
-        $_SESSION["origURL"] = $_SERVER['REQUEST_URI'];
-    }
-//    if(!$_SESSION["origURL"]){
-//        $_SESSION["origURL"] = $_SERVER['REQUEST_URI'];
-//    }
+	if(!isset($_SESSION["origURL"]) && $_GET['action'] != 'logout' && !isset($_REQUEST['loggedout'])){
+		if(in_array('login-page',$arrUrl)){
+			$_SESSION["origURL"] = home_url();
+		}elseif (in_array('wp-admin',$arrUrl)){
+			$_SESSION["origURL"] = admin_url();
+		}elseif (strpos($_SERVER['REQUEST_URI'],'wp-login.php')) {
+			$_SESSION["origURL"] = admin_url();
+		}else
+		{
+			$_SESSION["origURL"] = $_SERVER['REQUEST_URI'];
+		}
+	}
+//	if(in_array('training-family-community',$arrUrl)){
+//		$_SESSION["origURL"] = $_SERVER['REQUEST_URI'];
+//	}
+    // if(!isset($_SESSION["origURL"])){
+    // 	$_SESSION["origURL"] = $_SERVER['REQUEST_URI'];
+    // }
     //var_dump($_SESSION["origURL"]);
 	$user = wp_get_current_user();
 

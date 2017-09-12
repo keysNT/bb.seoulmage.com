@@ -532,6 +532,7 @@ function _register_widget_update_callback( $id_base, $update_callback, $options 
 			unset($wp_registered_widget_updates[$id_base]);
 		return;
 	}
+
 	$widget = array(
 		'callback' => $update_callback,
 		'params' => array_slice(func_get_args(), 3)
@@ -579,6 +580,7 @@ function _register_widget_form_callback($id, $name, $form_callback, $options = a
 		'params' => array_slice(func_get_args(), 4)
 	);
 	$widget = array_merge($widget, $options);
+
 	$wp_registered_widget_controls[$id] = $widget;
 }
 
@@ -811,8 +813,6 @@ function is_active_widget( $callback = false, $widget_id = false, $id_base = fal
 			}
 		}
 	}
-
-
 	return false;
 }
 
@@ -851,6 +851,7 @@ function is_active_sidebar( $index ) {
 	$index = ( is_int($index) ) ? "sidebar-$index" : sanitize_title($index);
 	$sidebars_widgets = wp_get_sidebars_widgets();
 	$is_active_sidebar = ! empty( $sidebars_widgets[$index] );
+
 	/**
 	 * Filters whether a dynamic sidebar is considered "active".
 	 *
@@ -893,6 +894,7 @@ function wp_get_sidebars_widgets( $deprecated = true ) {
 	if ( !is_admin() ) {
 		if ( empty($_wp_sidebars_widgets) )
 			$_wp_sidebars_widgets = get_option('sidebars_widgets', array());
+
 		$sidebars_widgets = $_wp_sidebars_widgets;
 	} else {
 		$sidebars_widgets = get_option('sidebars_widgets', array());
